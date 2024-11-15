@@ -11,7 +11,9 @@ This is a tutorial on how to install the neccesary dependencies for connecting w
 `from openai import OpenAI`
 
 `client = OpenAI(`
+
 `  api_key = "ENTER YOUR API KEY"`
+
 `)`
 
 3. Read more about the chat completition feature from OpenAI: [https://platform.openai.com/docs/api-reference/chat/create](https://platform.openai.com/docs/api-reference/chat/create).
@@ -19,11 +21,17 @@ This is a tutorial on how to install the neccesary dependencies for connecting w
 4. An example we can obtain from it is the following:
 
 `completion = client.chat.completions.create(`
+
 ` model="gpt-4o",`
+
 `  messages=[`
+
 `    {"role": "system", "content": "You are a helpful assistant."},`
+
 `    {"role": "user", "content": "Hello!"}`
+
 `  ]`
+
 `)`
 
 
