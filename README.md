@@ -16,9 +16,10 @@ This is a tutorial on how to install the neccesary dependencies for connecting w
 
 `)`
 
-3. Read more about the chat completition feature from OpenAI: [https://platform.openai.com/docs/api-reference/chat/create](https://platform.openai.com/docs/api-reference/chat/create).
+3. Read more about the chat completition feature from OpenAI: 
+[https://platform.openai.com/docs/api-reference/chat/create](https://platform.openai.com/docs/api-reference/chat/create).
 
-4. An example we can obtain from it is the following:
+4. An example obtained from the previous step can be seen below.
 
 `completion = client.chat.completions.create(`
 
