@@ -11,8 +11,8 @@ completion = client.chat.completions.create(
   model="gpt-4o",
   messages=[
     {"role": "system", "content": "You are a helpful assistant."},
-    {"role": "user", "content": "Hello!"}
+    {"role": "user", "content": "Do you think you could beat the Turing test?"}
   ]
 )
 
-print(completion.choices[0].message)
+print(completion.choices[0].message.content)
