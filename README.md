@@ -8,7 +8,7 @@ This is a tutorial on how to install the neccesary dependencies for connecting w
 
 2. Create a python script that will connect to the OpenAI API with your credentials.
 
-`from openai import OpenAI`
+`from openai import OpenAI\n`
 `client = OpenAI(`
 `  api_key = "ENTER YOUR API KEY"`
 `)`
