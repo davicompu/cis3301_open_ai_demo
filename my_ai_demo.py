@@ -3,7 +3,7 @@ from openai import OpenAI
 import json
 
 credentials = json.loads(open('credential.json').read())
-print(credentials['api_key'])
+# print(credentials['api_key'])
 
 client = OpenAI(api_key=credentials['api_key'])
 
