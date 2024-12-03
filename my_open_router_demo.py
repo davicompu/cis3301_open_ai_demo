@@ -3,16 +3,19 @@ import json
 
 credentials = json.loads(open('credential.json').read())
 
+
 client = OpenAI(
-    api_key=credentials['api_key']
+  base_url="https://openrouter.ai/api/v1",
+  api_key=credentials['openrouter'],
 )
 
 completion = client.chat.completions.create(
-  model="gpt-4o-mini",
+  model="meta-llama/llama-3.2-3b-instruct:free",
   messages=[
-    {"role": "system", "content": "You are a helpful assistant."},
-    {"role": "user", "content": "Do you think you could beat the Turing test?"}
+    {
+      "role": "user",
+      "content": "Tell me a joke"
+    }
   ]
 )
-
 print(completion.choices[0].message.content)

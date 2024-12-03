@@ -1,6 +1,6 @@
 ## OpenAI Demo - CIS 3301
 
-This is a tutorial on how to install the neccesary dependencies for connecting with the OpenAI API. To start we need to install the openai python library; read more about it in the following link: [Open AI Introduction Documentation](https://platform.openai.com/docs/api-reference/introduction).
+This is a tutorial on how to install the neccesary dependencies for connecting with the OpenAI API. To start we need to install the openai python library; read more about it in the following link: [Open AI Introduction Documentation (https://platform.openai.com/)](https://platform.openai.com/docs/overview).
 
 1. To install the openai python library, run the following command.
 
@@ -31,8 +31,10 @@ This is a tutorial on how to install the neccesary dependencies for connecting w
 
 `    {"role": "user", "content": "Hello!"}`
 
-`  ]`
+`  ])`
 
-`)`
+## Other important references
+
+[https://platform.openai.com/docs/api-reference/introduction](https://platform.openai.com/docs/api-reference/introduction)
 
 
