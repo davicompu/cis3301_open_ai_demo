@@ -1,10 +1,10 @@
 from openai import OpenAI
 import json
 
-credentials = json.loads(open('credentials.json').read())
+credentials = json.loads(open('credential.json').read())
 
 client = OpenAI(
-    api_key=credentials['api_secret_key']
+    api_key=credentials['api_key']
 )
 
 completion = client.chat.completions.create(
